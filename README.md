@@ -11,6 +11,6 @@ What I gained from this project:
 3) I built some useful functions to automate the process and gain precious time, demonstrating some modular programming skills.
 4) I conducted a comparative analysis of two popular optimizers, Adam and SGD.
 
-I finally achieved 98.41% test accuracy score with tuned SGD!
+***I finally achieved (with tuned SGD) an average of 98.41% test accuracy score (10 cycles of 17 epochs each) with a standard deviation of 0.000374, an average loss of 0.06741 with a standard deviation of 0.002525!***
 
 Thank you for your reading! 
