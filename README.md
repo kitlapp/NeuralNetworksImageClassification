@@ -10,7 +10,8 @@ What I gained from this project:
 2) Conducted a comparative analysis of optimization techniques (Adam and SGD), focusing on their impact on model performance and accuracy.
 3) Systematically tuned hyperparameters to enhance model performance and achieve optimal results.
 4) I built some useful functions to automate the process and gain precious time, demonstrating some modular programming skills.
-5) I can confirm that trying to find the best possible parameter combination is a challenging part both in academic research and machine/deep learning.
+5) I believe I managed to repeat cycles without bias.
+6) I can confirm that trying to find the best possible parameter combination is a challenging part both in academic research and machine/deep learning.
 
 ***I finally achieved an average test accuracy score of 98.41% (with tuned SGD) over 10 cycles of 17 epochs each, with a standard deviation of 0.000374. The average loss was 0.06741, with a standard deviation of 0.002525!***
 
