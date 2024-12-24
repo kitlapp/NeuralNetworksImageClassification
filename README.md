@@ -1,18 +1,23 @@
-# mnist_neural_networks
-A comparative analysis of neural network optimizers for image classification, highlighting the performance improvements achieved through hyperparameter tuning. 
+# Building and Optimizing Deep Learning Models for Image Classification
+This project demonstrates the implementation of a deep learning pipeline using TensorFlow. The workflow includes data preprocessing, such as creating training, validation, and test sets, scaling image data, and batching datasets for optimized performance. Three different models were created and optimized through trial-and-error processes, exploring various hyperparameter combinations, such as hidden layer sizes, activation functions, and optimizers. A modular design is employed as the Python scripts for batching, model creation, and evaluation kept separated for enabling readability and reusability. Additionally, manual evaluation cycles ensure unbiased testing and reliable metrics for model comparison and selection.
 
-I have conducted University research over the past years, particularly in mathematical modelling on published scientific data. Consequently, I am somewhat familiar with trial-and-error processes, which are important for hyperparameter tuning in the field of Data Science. The processes has exactly the same roots where the goal is to find the best possible parameter combinations to optimize model performance. Unlike academic research, machine and deep learning focus on optimizing parameters without a physical meaning, allowing for much more flexibility. 
+## FILES INCLUDED:
+1. Data Files not included as th dataset is directly impported from TensorFlow Datasets in the core file.
+2. Core Jupyter File X 1:
+3. Python file (.py) which contains the custom functions X 1.
+4. The README File
 
-I wanted to focus on deep learning and tensorflow and a well-understood and cleaned dataset already prepared in Tensorflow Datasets was an ideal opportunity to achieve my goal.
+   --> 3 Files in Total <--
 
-What I gained from this project:
-1) Built and optimized neural networks using TensorFlow and Keras for image classification tasks.
-2) Conducted a comparative analysis of optimization techniques (Adam and SGD), focusing on their impact on model performance and accuracy.
-3) Systematically tuned hyperparameters to enhance model performance and achieve optimal results.
-4) I built some useful functions to automate the process and gain precious time, demonstrating some modular programming skills.
-5) I believe I managed to repeat cycles without bias.
-6) I can confirm that trying to find the best possible parameter combination is a challenging part both in academic research and machine/deep learning.
+## HOW TO SET UP THE ENVIRONMENT:
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+   --> conda create -n 'YourEnvName' python=3.11.9 -c conda-forge jupyterlab=4.2.3 numpy=1.26.4 matplotlib=3.9.1
+3. Activate the newly-created environment.
+4. Install additional packages from pip:
+   --> pip install tensorflow==2.17.0 tensorflow-datasets==4.9.6 pandas==2.2.2
+5. Launch Jupyter via Anaconda Prompt.
+6. Open the core jupyter file and run it.
+7. Enjoy!
 
-***I finally achieved an average test accuracy score of 98.41% (with tuned SGD) over 10 cycles of 17 epochs each, with a standard deviation of 0.000374. The average loss was 0.06741, with a standard deviation of 0.002525!***
-
-Thank you for your reading! 
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <-
