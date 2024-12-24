@@ -1,4 +1,4 @@
-# Building and Optimizing Neural Networks for Image Classification
+# Classifying Images Using Neural Networks
 This project demonstrates the implementation of a deep learning pipeline using TensorFlow. The workflow includes data preprocessing, such as creating training, validation, and test sets, scaling image data, and batching datasets for optimized performance. Three different models were created and optimized through trial-and-error processes, exploring various hyperparameter combinations, such as hidden layer sizes, activation functions, and optimizers. A modular design is employed as the Python scripts for batching, model creation, and evaluation kept separated for enabling readability and reusability. Additionally, manual evaluation cycles ensure unbiased testing and reliable metrics for model comparison and selection.
 
 ## FILES INCLUDED:
